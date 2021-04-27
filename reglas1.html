@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Index</title>
+  </head>
+  <body>
+    <header class="index_header">
+      <h1 class="h1_header">LA FIEBRE DEL AJEDREZ</h1>
+    </header>
+
+    <main>
+      <!--navbar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-color1">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link px-5 py-3" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-5 py-3" href="historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-5 py-3" href="reglas1.html">Reglas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-5 py-3" href="reglas2.html">Reglas2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-5 py-3" href="titulos.html">Títulos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--navbar-->
+
+      <!--content-->
+      <div class="row mx-0">
+        <div class="col-1"></div>
+        <div class="col-10 bg-color2">
+          <article class="px-5 py-5">
+            <h1>Tablero y piezas</h1>
+            <p>
+                El tablero de ajedrez está formado por 64 espacios en colores blanco y negro por los que se van a mover 
+                las piezas. En el inicio de cada partida, las piezas blancas y negras se sitúan en cada extremo del 
+                tablero siempre en la misma posición:
+            </p><br>
+
+            <div class="text-center">
+                <img src="img/tablerovacio.png" alt="tablerovacio">
+            </div><br><br>
+
+            <ul>
+                <li>Los 8 peones en la segunda fila</li>
+                <li>Dos torres (Una en cada semana)</li>
+                <li>Dos caballos (Cada uno al lado de cada torre)</li>
+                <li>Dos alfiles (Cada uno al lado de cada caballo)</li>
+                <li>La dama o reina al lado de uno de los alfiles</li>
+                <li>El rey entre la dama y uno de los alfiles</li>
+            </ul><br>
+
+            <h1>Movimientos</h1><br>
+            <h2>Peón</h2>
+            <p>
+                El peón puede ser movido hacia adelante a la casilla 
+                inmediatamente delante suyo en la misma columna, siempre que dicha casilla esté desocupada.
+            </p>
+            <p>
+                El peón en su primer avance puede avanzar dos casillas a lo largo de la misma columna, siempre 
+                que ambas casillas estén desocupadas. El peón puede ser movido a una casilla ocupada por una 
+                pieza del adversa rio que esté en diagonal delante suyo, sobre una columna adyacente, capturando 
+                dicha pieza.
+            </p><br>
+            <div class="text-center">
+                <img src="img/movimiento-peon.jpg" alt="movimiento-peon">
+            </div><br>
+
+            <h2>Caballo</h2>
+            <p>
+                El caballo puede ser movido a una de las casillas más próximas a la que se encuentra, sin ser de 
+                la misma fila, columna o diagonal.
+            </p><br>
+            <div class="text-center">
+                <img src="img/movimiento-caballo.jpg" alt="movimiento-caballo">
+            </div><br>
+
+            <h2>Alfil</h2>
+            <p>
+                El alfil puede ser movido a cualquier casilla a lo largo de una de las diagonales sobre las que se encuentra.
+            </p><br>
+            <div class="text-center">
+                <img src="img/movimiento-alfil.jpg" alt="movimiento-alfil">
+            </div><br>
+
+            <h2>Torre</h2>
+            <p>
+                La torre puede ser movida a cualquier casilla a lo largo de la fila o columna en las que se encuentra.
+            </p><br>
+            <div class="text-center">
+                <img src="img/movimiento-torre.jpg" alt="movimiento-torre">
+            </div><br>
+
+            <h2>Dama o Reina</h2>
+            <p>
+                La dama puede ser movida a cualquier casilla a lo largo de la fila, columna o diagonal en las que se encuentra.
+            </p><br>
+            <div class="text-center">
+                <img src="img/movimiento-dama.jpg" alt="movimiento-dama">
+            </div><br>
+
+            <h2>Rey</h2>
+            <p>
+                Hay dos formas diferentes de mover el rey:
+            </p>
+            <ul>
+                <li>Desplazándolo a cualquier casilla adyacente no atacada por una o más piezas del adversario.</li><br>
+                <div class="text-center">
+                    <img src="img/movimiento-rey.jpg" alt="movimiento-rey">
+                </div><br>
+                <li>“Enrocando”. El enroque es un movimiento del rey y de una de las torres del mismo color y 
+                    que esté en la misma fila, que cuenta como una simple jugada del rey y que se realiza como sigue: 
+                    el rey es trasladado dos casillas desde su casilla original hacia la torre y luego dicha torre es 
+                    trasladada a la casilla que acaba de cruzar el rey.</li><br>
+                <div class="text-center">
+                    <img src="img/movimiento-enroque-249x300.jpg" alt="movimiento-enroque-249x300">
+                </div><br>
+            </ul>
+          </article>
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </main>
+    <!--content-->
+
+    <footer>
+      <div class="bg-color4">
+        <div class="py-3 text-white text-center">
+          Desarrollado por S7veN
+        </div>
+      </div>
+      <div class="py-5 text-center">
+        Pagina realizada con bootstrap4
+      </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" 
+    crossorigin="anonymous"></script>
+  </body>
+</html>
